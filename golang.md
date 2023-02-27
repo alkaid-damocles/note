@@ -54,5 +54,5 @@
 
 值类型： 整形， 浮点， 字符串， 数组， 布尔， struct
 
-引用类型： channel， map， slice， 指针
+引用类型： channel， map， slice， 指针   
 
