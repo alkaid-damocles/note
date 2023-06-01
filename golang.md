@@ -306,7 +306,7 @@ channel有3中模式: 1.读模式通道  2.写模式通道  3.读写模式通道
 
 5.释放锁
 
-![img](/Users/alkaid/Desktop/note/assets/e9cf2f21ff728628c9479c15073e4f0a.png)
+![img](./assets/e9cf2f21ff728628c9479c15073e4f0a.png)
 
 **接收数据:** 也分为阻塞式接收, 和非阻塞式接收, 都调用chanrecv函数
 
@@ -326,7 +326,7 @@ channel有3中模式: 1.读模式通道  2.写模式通道  3.读写模式通道
 
 4.释放锁
 
-![img](/Users/alkaid/Desktop/note/assets/f8030a2794bc55a0f81e99f9a96e300c.png)
+![img](./assets/f8030a2794bc55a0f81e99f9a96e300c.png)
 
 #### 7.关闭流程
 
@@ -344,7 +344,7 @@ channel有3中模式: 1.读模式通道  2.写模式通道  3.读写模式通道
 
 7.唤醒所有glist中的goroutine
 
-![img](/Users/alkaid/Desktop/note/assets/de8f83801d6df12f6b5a6c7037f5e528.png)
+![img](./assets/de8f83801d6df12f6b5a6c7037f5e528.png)
 
 ### 7.select关键字
 
@@ -537,7 +537,7 @@ func main() {
 >
 > 最终扩容结果:
 >
-> ![在这里插入图片描述](/Users/alkaid/Desktop/note/assets/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAR29Hb-WcqOWKquWKmw==,size_20,color_FFFFFF,t_70,g_se,x_16.png)
+> ![在这里插入图片描述](./assets/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAR29Hb-WcqOWKquWKmw==,size_20,color_FFFFFF,t_70,g_se,x_16.png)
 
 ### 11.单引号，双引号，反引号的区别？
 
@@ -577,7 +577,7 @@ func main() {
 
 **map key 类型**
 
-> ![image-20230419174926300](/Users/alkaid/Desktop/note/assets/image-20230419174926300.png)
+> ![image-20230419174926300](./assets/image-20230419174926300.png)
 >
 > 在 Go 语言中，`slice` 是一种动态数组，可以根据需要动态增加或缩小长度，也可以在中间插入或删除元素。因此，`slice` 的长度和容量可能不同，而且底层数组的地址也可能会发生改变。
 >
@@ -952,4 +952,3 @@ func sleep(seconds int) {
 > 实现优雅关闭的方法会根据具体的应用场景和需求而有所不同。重要的是要在适当的时机进行信号的捕获和处理，并确保协程能够正确地停止和清理资源。
 >
 > 需要根据具体的需求选择合适的方法，并结合使用以上提到的技术和机制，以实现可靠和优雅的关闭。
-

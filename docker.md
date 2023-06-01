@@ -46,7 +46,7 @@
 
 ### 7.Docker 和 虚拟化的区别？  
 
-![img](/Users/alkaid/Desktop/note/assets/E06E4C03862AF6B0B6B3023E2A061F90.png)
+![img](./assets/E06E4C03862AF6B0B6B3023E2A061F90.png)
 
 ### 8.Docker 容器有几种在状态？  
 

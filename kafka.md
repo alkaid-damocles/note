@@ -243,7 +243,7 @@ consumer 最多只能消费到 HW 所在的位置，因为小于等于 HW 值的
 
 **更新时机**
 
-![image-20230512114702514](/Users/alkaid/Desktop/note/assets/image-20230512114702514.png)
+![image-20230512114702514](./assets/image-20230512114702514.png)
 
 ### 11.kafka 发送一条消息 到 服务端的流程
 
